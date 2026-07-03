@@ -7,7 +7,7 @@ This document catalogs every feature present in the `data/master_ml_dataset.csv`
 ## 1. The Target Variable
 | Feature | Definition | Theoretical Contribution to Results |
 | :--- | :--- | :--- |
-| **`OperatingCashFlow_Proxy`** | Profit After Tax (PAT) + Depreciation. | **The Target ($Y$)**. This serves as our proxy for Free Cash Flow to Firm (FCFF). Accurately forecasting this over a 5-year horizon is the core objective of the Intrinsic Valuation model. |
+| **`Target_FCF_Growth`** | Percentage change in Operating Cash Flow. | **The Target ($Y$)**. The literature strictly recommends forecasting the *growth rate* rather than absolute Rupees to prevent the Machine Learning algorithm from anchoring to company size (Revenue). This ensures it reacts to macro and operational shocks. |
 
 ---
 

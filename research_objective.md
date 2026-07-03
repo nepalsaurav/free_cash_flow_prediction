@@ -33,9 +33,9 @@ Most Nepali valuation studies:
 Almost none:
 - Forecast FCF using machine learning
 - Compare ML against traditional forecasting methods
-- Study NEPSE-listed **hydropower** firms specifically, despite hydropower being one of the largest and most homogeneous sectors on the exchange (105 listed companies)
-
-**Stated gap:** There is limited evidence on whether machine learning models improve Free Cash Flow forecasting and DCF valuation accuracy for NEPSE-listed hydropower firms — a sector with structurally distinct, nonlinear cash flow dynamics (construction-phase capex, regime shift at commercial operation date, seasonal hydrology-driven revenue) that traditional linear forecasting methods are poorly suited to capture.
+- Study NEPSE-listed **hydropower** firms specifically, despite
+6. **Valuation Metrics (Y):** 
+The model specifically engineers the target variable to predict the **Percentage Growth Rate** of Free Cash Flow, rather than Absolute Rupees. The literature confirms this prevents the algorithm from anchoring to the sheer size (Revenue) of the company, forcing it to learn the nuances of operational efficiency (PLF) and systemic macro-shocks (Inflation). improve Free Cash Flow forecasting and DCF valuation accuracy for NEPSE-listed hydropower firms — a sector with structurally distinct, nonlinear cash flow dynamics (construction-phase capex, regime shift at commercial operation date, seasonal hydrology-driven revenue) that traditional linear forecasting methods are poorly suited to capture.
 
 ---
 

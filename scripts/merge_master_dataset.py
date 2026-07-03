@@ -68,8 +68,8 @@ def main():
     # For a simplified proxy (since full capex/NWC might be complex):
     # Operating Cash Flow Proxy = ProfitAfterTax + Depreciation
     if 'OperatingCashFlow_Proxy' not in master_df.columns:
-        profit = master_df.get('ProfitAfterTax', 0)
-        depr = master_df.get('Depreciation', 0)
+        profit = master_df.get('PAT', 0)
+        depr = master_df.get('Depreciation_Expense', 0)
         master_df['OperatingCashFlow_Proxy'] = profit + depr
 
     # Save to file

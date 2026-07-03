@@ -16,7 +16,7 @@ To assist in your feature engineering and modeling, here is the exact breakdown 
 
 | Category | Variable Name | Role | Description |
 | :--- | :--- | :--- | :--- |
-| **Target Variable** | `OperatingCashFlow_Proxy` | **Target ($Y$)** | A proxy for FCFF (Profit After Tax + Depreciation). This is what you are predicting over the next 5 years. |
+| **Target Variable** | `Target_FCF_Growth` | **Target ($Y$)** | The percentage growth rate of Free Cash Flow (Profit After Tax + Depreciation). Predicting growth (rather than absolute Rupees) prevents the model from anchoring to Revenue and makes it hyper-sensitive to macro-shocks. |
 | **Financial State** | `Revenue` | Feature ($X$) | Top-line energy sales. Dictated by the PPA tariff and generation. |
 | **Financial State** | `PaidUpCapital` | Feature ($X$) | Equity base of the company. |
 | **Financial State** | `FixedAssets` | Feature ($X$) | The physical plant value on the balance sheet. |
