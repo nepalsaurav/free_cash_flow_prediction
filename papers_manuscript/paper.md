@@ -107,7 +107,7 @@ The ML algorithms were tasked with predicting the 1-year forward growth rate, re
 | 5 | Random Forest | Rs 107,463 |
 | 6 | Ridge Regression | Rs 125,929 |
 
-![Machine Learning Algorithm Performance vs Traditional Baseline](../plots/model_comparison.png)
+
 
 When exposed to the 13-variable dataset, Support Vector Regression (SVR) achieved Rank 1. The Tree-based algorithms (such as Random Forest and XGBoost) struggled, likely overfitting to macroeconomic noise due to the small sample size, whereas the SVR's RBF Kernel demonstrated superior regularization in this data-scarce environment.
 
