@@ -8,3 +8,17 @@ wheels/
 
 # Virtual environments
 .venv
+
+
+papers_manuscript/paper_ajbm.md
+papers_manuscript/paper.md
+
+nea_annual_reports
+nrb_reports
+
+.agents
+.ipynb_checkpoints
+
+research_objective.md
+
+progress_track
